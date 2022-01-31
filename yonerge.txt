@@ -1,0 +1,11 @@
+install dotnet
+dotnet restore
+dotnet run
+
+crt certificate install
+
+nodejs install
+
+npm install @angular/cli@latest
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
