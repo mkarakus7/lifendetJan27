@@ -38,6 +38,7 @@ export class BasketService {
   }
 
   setBasket(basket: IBasket) {
+    console.log("mk--", basket);
     return this.http.post(this.baseUrl + 'basket', basket)
       .subscribe( (response : IBasket)=> {
         this.basketSource.next(response);
